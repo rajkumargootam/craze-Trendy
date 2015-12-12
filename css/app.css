@@ -1,0 +1,16 @@
+#firstsection {
+  height: 90vh;
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5em; }
+  #firstsection p.title {
+    padding-top: 4em;
+    font-size: 3em;
+    text-align: center; }
+  #firstsection p.paragraph {
+    text-align: center; }
+  #firstsection .icons {
+    text-align: center; }
+
+/*# sourceMappingURL=app.css.map */
