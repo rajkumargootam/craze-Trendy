@@ -6,16 +6,25 @@
   padding-top: 5em;
 
   p.title{
+    color: #FFF;
         padding-top: 4em;
         font-size: 3em;
         text-align: center;
+        margin-bottom: -3em;
+        padding-right: 10em;
    }
 
   p.paragraph {
-     text-align: center;
-   }
+    font-size: 2em;
+    color: #FFF;
+    text-align: left;
+    padding: 4em;
+    margin-bottom: -4em;
+
+  }
 
   .icons {
+    color:#FFF;
     text-align: center;
   }
 }
