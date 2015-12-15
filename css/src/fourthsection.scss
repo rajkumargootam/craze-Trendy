@@ -4,17 +4,50 @@
   }
   .container{
   margin-top: 9em;
-  background-color: $primary-font-color;
+
   background-color:#8A2BE2;
 
-    .parag {
+  .carousel-inner {
+    h.parag {
       text-align: center;
-         font-size: 2em;
-    }
-    .head {
-      font-weight: bold;
+      // color: #3598DB;
+      font-size: 2em;
       border-bottom: 2em;
+    }
+    p {
+      color: #3598DB;
+    }
+  }
+
+
+    .head {
+            font-weight: bold;
+            border-bottom: 2em;
+
 
     }
   }
+  .carousel-indicators {
+    // background-color: #3598DB;
+    li{
+      border: 1px solid blue;
+    }
+
+    .active {
+        // background-color: red;
+      background-color: #3598DB;
+    }
+  }
+    // li.active {
+    //
+    //   // background-color: #3598DB;
+    // }
+
+
+  .carousel-indicators {
+        bottom: -36px;
+
+
+  }
+
 }

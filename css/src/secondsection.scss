@@ -1,29 +1,36 @@
 #secondsection {
   position: relative;
 
+  .head {
+    font-size: 2em;
+  }
+
 
   h1 {
     text-align: center;
     font-weight: bold;
     margin-bottom: 0.8em;
+    font-size: 0.5em;
+    margin: 0;
 
   }
 
   p {
     text-align: center;
     color: $light-font-color;
-    font-size: 0.5em;
+    font-size: 0.3em;
     margin-bottom: 3em;
   }
 
   .row {
     font-size: 3em;
     text-align: center;
-    bottom: 1em;
+    bottom: 0.1em;
   }
 
   i {
     color: $primary-font-color;
+    font-size: 0.8em;
   }
 
   .para {

@@ -1,0 +1,65 @@
+#fifthsection {
+
+  margin-top: 3em;
+
+  .price-option {
+    border: 1px solid #444;
+  }
+
+  h2 {
+    background-color:$primary-font-color;
+    color: #FFF;
+    margin: 0;
+    padding: 0.4em;
+  }
+
+  .price {
+    font-size: 2.7em;
+    font-weight: bold;
+    position: relative;
+
+   span {
+    font-size: 0.5em;
+    position: absolute;
+    top: -0.1em;
+    font-weight: bold;
+  }
+}
+
+  .reason {
+    margin-bottom: 1em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid $dark-font-color;
+  }
+
+    .btn {
+        text-transform: uppercase;
+    }
+
+    .color {
+        background-color: $primary-font-color;
+    }
+
+    h1 {
+      text-align: center;
+      font-weight: bold;
+      margin-top: 2em;
+          font-size: 2em;
+    }
+
+    p {
+      text-align: center;
+      color:$light-font-color;
+    }
+
+    .icons {
+     border-radius: 50%;
+          text-align: center;
+    }
+
+
+  .container {
+    border: 2px solid #444;
+    bottom: 2em;
+  }
+}

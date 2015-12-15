@@ -9,8 +9,7 @@
     padding-top: 4em;
     font-size: 3em;
     text-align: center;
-    margin-bottom: -3em;
-    padding-right: 10em; }
+    margin-bottom: -3em; }
   #firstsection p.paragraph {
     font-size: 2em;
     color: #FFF;
@@ -23,21 +22,26 @@
 
 #secondsection {
   position: relative; }
+  #secondsection .head {
+    font-size: 2em; }
   #secondsection h1 {
     text-align: center;
     font-weight: bold;
-    margin-bottom: 0.8em; }
+    margin-bottom: 0.8em;
+    font-size: 0.5em;
+    margin: 0; }
   #secondsection p {
     text-align: center;
-    color: #D6D6D6;
-    font-size: 0.5em;
+    color: #3598DB;
+    font-size: 0.3em;
     margin-bottom: 3em; }
   #secondsection .row {
     font-size: 3em;
     text-align: center;
-    bottom: 1em; }
+    bottom: 0.1em; }
   #secondsection i {
-    color: #3598DB; }
+    color: #3598DB;
+    font-size: 0.8em; }
   #secondsection .para {
     font-size: 1em; }
 
@@ -46,19 +50,75 @@
   text-align: center;
   padding: 0.5em; }
   #thirdsection p {
-    color: #D6D6D6; }
+    color: #3598DB; }
 
 #fourthsection .div {
   text-align: center; }
 #fourthsection .container {
   margin-top: 9em;
-  background-color: #3598DB;
   background-color: #8A2BE2; }
-  #fourthsection .container .parag {
+  #fourthsection .container .carousel-inner h.parag {
     text-align: center;
-    font-size: 2em; }
+    font-size: 2em;
+    border-bottom: 2em; }
+  #fourthsection .container .carousel-inner p {
+    color: #3598DB; }
   #fourthsection .container .head {
     font-weight: bold;
     border-bottom: 2em; }
+#fourthsection .carousel-indicators li {
+  border: 1px solid blue; }
+#fourthsection .carousel-indicators .active {
+  background-color: #3598DB; }
+#fourthsection .carousel-indicators {
+  bottom: -36px; }
+
+#fifthsection {
+  margin-top: 3em; }
+  #fifthsection .price-option {
+    border: 1px solid #444; }
+  #fifthsection h2 {
+    background-color: #3598DB;
+    color: #FFF;
+    margin: 0;
+    padding: 0.4em; }
+  #fifthsection .price {
+    font-size: 2.7em;
+    font-weight: bold;
+    position: relative; }
+    #fifthsection .price span {
+      font-size: 0.5em;
+      position: absolute;
+      top: -0.1em;
+      font-weight: bold; }
+  #fifthsection .reason {
+    margin-bottom: 1em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #E7E7E7; }
+  #fifthsection .btn {
+    text-transform: uppercase; }
+  #fifthsection .color {
+    background-color: #3598DB; }
+  #fifthsection h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2em;
+    font-size: 2em; }
+  #fifthsection p {
+    text-align: center;
+    color: #3598DB; }
+  #fifthsection .icons {
+    border-radius: 50%;
+    text-align: center; }
+  #fifthsection .container {
+    border: 2px solid #444;
+    bottom: 2em; }
+
+#sixthsection .container {
+  background-color: #3598DB;
+  padding: 1em 2em;
+  width: 100%; }
+  #sixthsection .container a {
+    margin-right: 3em; }
 
 /*# sourceMappingURL=app.css.map */
