@@ -34,10 +34,13 @@
 
     .btn {
         text-transform: uppercase;
+        font-size: 1em;
     }
 
     .color {
         background-color: $primary-font-color;
+            padding: 12px;
+
     }
 
     h1 {
@@ -49,12 +52,32 @@
 
     p {
       text-align: center;
-      color:$light-font-color;
+      color:$primary-font-color;
     }
 
     .icons {
-     border-radius: 50%;
           text-align: center;
+        .twitter  {
+      border-radius: 50%;
+      padding: 9px 12px;
+      background-color: rgb(213, 213, 206);
+      color: rgb(255, 255, 255);
+          }
+          .face {
+            border-radius: 50%;
+            padding: 9px 12px;
+            background-color: rgb(213, 213, 206);
+            color: rgb(255, 255, 255);
+
+          }
+
+          .link {
+            border-radius: 50%;
+            padding: 9px 12px;
+            background-color: rgb(213, 213, 206);
+            color: rgb(255, 255, 255);
+
+          }
     }
 
 

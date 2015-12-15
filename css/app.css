@@ -54,24 +54,23 @@
 
 #fourthsection .div {
   text-align: center; }
-#fourthsection .container {
-  margin-top: 9em;
-  background-color: #8A2BE2; }
-  #fourthsection .container .carousel-inner h.parag {
-    text-align: center;
-    font-size: 2em;
-    border-bottom: 2em; }
-  #fourthsection .container .carousel-inner p {
-    color: #3598DB; }
-  #fourthsection .container .head {
-    font-weight: bold;
-    border-bottom: 2em; }
+#fourthsection .carousel-inner .parag {
+  text-align: center;
+  color: #3598DB;
+  font-size: 2em;
+  border-bottom: 2em; }
+#fourthsection .head {
+  font-weight: bold;
+  border-bottom: 2em; }
 #fourthsection .carousel-indicators li {
   border: 1px solid blue; }
 #fourthsection .carousel-indicators .active {
   background-color: #3598DB; }
 #fourthsection .carousel-indicators {
   bottom: -36px; }
+
+.container {
+  margin-top: 5em; }
 
 #fifthsection {
   margin-top: 3em; }
@@ -96,9 +95,11 @@
     margin-bottom: 2em;
     border-bottom: 1px solid #E7E7E7; }
   #fifthsection .btn {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 1em; }
   #fifthsection .color {
-    background-color: #3598DB; }
+    background-color: #3598DB;
+    padding: 12px; }
   #fifthsection h1 {
     text-align: center;
     font-weight: bold;
@@ -108,14 +109,28 @@
     text-align: center;
     color: #3598DB; }
   #fifthsection .icons {
-    border-radius: 50%;
     text-align: center; }
+    #fifthsection .icons .twitter {
+      border-radius: 50%;
+      padding: 9px 12px;
+      background-color: #d5d5ce;
+      color: white; }
+    #fifthsection .icons .face {
+      border-radius: 50%;
+      padding: 9px 12px;
+      background-color: #d5d5ce;
+      color: white; }
+    #fifthsection .icons .link {
+      border-radius: 50%;
+      padding: 9px 12px;
+      background-color: #d5d5ce;
+      color: white; }
   #fifthsection .container {
     border: 2px solid #444;
     bottom: 2em; }
 
 #sixthsection .container {
-  background-color: #3598DB;
+  background-color: #D6D6D6;
   padding: 1em 2em;
   width: 100%; }
   #sixthsection .container a {

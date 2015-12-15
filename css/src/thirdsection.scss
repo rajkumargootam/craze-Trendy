@@ -1,9 +1,9 @@
 #thirdsection {
-  background-color: #E7E7E7;
+  background-color: $dark-font-color;
   text-align: center;
   padding: 0.5em;
 
   p {
-    color: $light-font-color;
+    color: $primary-font-color;
   }
 }

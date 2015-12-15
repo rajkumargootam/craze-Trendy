@@ -2,20 +2,13 @@
   .div {
     text-align: center;
   }
-  .container{
-  margin-top: 9em;
-
-  background-color:#8A2BE2;
 
   .carousel-inner {
-    h.parag {
+    .parag {
       text-align: center;
-      // color: #3598DB;
+      color: $primary-font-color;
       font-size: 2em;
       border-bottom: 2em;
-    }
-    p {
-      color: #3598DB;
     }
   }
 
@@ -26,7 +19,6 @@
 
 
     }
-  }
   .carousel-indicators {
     // background-color: #3598DB;
     li{
@@ -35,7 +27,7 @@
 
     .active {
         // background-color: red;
-      background-color: #3598DB;
+      background-color: $primary-font-color;
     }
   }
     // li.active {
@@ -49,5 +41,8 @@
 
 
   }
+}
 
+.container{
+margin-top: 5em;
 }
