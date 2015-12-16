@@ -1,6 +1,12 @@
 #fifthsection {
 
   margin-top: 3em;
+  width: 100%;
+  .bg {
+  background-color: $dark-font-color;
+
+  }
+
 
   .price-option {
     border: 1px solid #444;
@@ -9,7 +15,7 @@
   h2 {
     background-color:$primary-font-color;
     color: #FFF;
-    margin: 0;
+    margin: 0.5em;
     padding: 0.4em;
   }
 
@@ -17,18 +23,20 @@
     font-size: 2.7em;
     font-weight: bold;
     position: relative;
+    margin-bottom: 0;
 
    span {
     font-size: 0.5em;
     position: absolute;
     top: -0.1em;
     font-weight: bold;
+
   }
 }
 
   .reason {
     margin-bottom: 1em;
-    margin-bottom: 2em;
+    // margin-bottom: 2em;
     border-bottom: 1px solid $dark-font-color;
   }
 
@@ -51,6 +59,7 @@
     }
 
     p {
+          margin-bottom: 3em;
       text-align: center;
       color:$primary-font-color;
     }
