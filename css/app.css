@@ -13,11 +13,11 @@
     margin-bottom: -1em;
     margin-right: 16em; }
   #firstsection p.paragraph {
-    font-size: 1.7em;
+    font-size: 1.3em;
     color: #FFF;
     padding: 4em;
     margin-bottom: -4em;
-    margin-left: 7em; }
+    margin-left: 11em; }
     #firstsection p.paragraph .break {
       margin-right: 20em; }
   #firstsection .icons {
@@ -52,7 +52,7 @@
   margin-bottom: 0.8em;
   font-size: 0.5em;
   margin: 0;
-  margin-top: 1em;
+  margin-top: 0;
   margin-bottom: 0.7em;
   padding: 0.5em; }
 #secondsection p {
@@ -104,12 +104,21 @@
   width: 100%; }
   #fifthsection .bg {
     background-color: #E7E7E7; }
+  #fifthsection .head {
+    font-weight: bold; }
   #fifthsection .price-option {
-    border: 1px solid #444; }
+    border: 1px solid #444;
+    background-color: #FFF;
+    position: relative;
+    top: 5em; }
+  #fifthsection .test {
+    position: relative;
+    top: 3.5em;
+    height: 416px; }
   #fifthsection h2 {
     background-color: #3598DB;
     color: #FFF;
-    margin: 0.5em;
+    margin: 0em;
     padding: 0.4em; }
   #fifthsection .price {
     font-size: 2.7em;
@@ -129,14 +138,16 @@
     font-size: 1em; }
   #fifthsection .color {
     background-color: #3598DB;
-    padding: 12px; }
+    padding: 12px;
+    position: relative;
+    top: 29px; }
   #fifthsection h1 {
     text-align: center;
     font-weight: bold;
-    margin-top: 2em;
+    margin-top: 4em;
     font-size: 2em; }
   #fifthsection p {
-    margin-bottom: 3em;
+    margin-bottom: 0;
     text-align: center;
     color: #3598DB; }
   #fifthsection .icons {
@@ -157,7 +168,7 @@
       background-color: #d5d5ce;
       color: white; }
   #fifthsection .container {
-    border: 2px solid #444;
+    border: 2px solid #fff;
     bottom: 2em; }
 
 #sixthsection .container {
