@@ -1,13 +1,45 @@
 #sixthsection {
-    //list-style: none;
-    //text-align: center
-  .container {
-    background-color:  $light-font-color;
-    padding: 1em 2em;
-    width: 100%;
 
-    a {
-     margin-right: 3em;
-    }
-  }
+      h1 {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 4em;
+        font-size: 2em;
+      }
+
+      p {
+            margin-bottom: 2em;
+        text-align: center;
+        color:#777777;
+      }
+
+      .icons {
+            text-align: center;
+          .twitter  {
+            border-radius: 50%;
+            padding: 9px 12px;
+            background-color: rgb(213, 213, 206);
+            color: rgb(255, 255, 255);
+          }
+            .face {
+              border-radius: 50%;
+              padding: 9px 12px;
+              background-color: rgb(213, 213, 206);
+              color: rgb(255, 255, 255);
+
+              &:hover {
+                background-color: #3598DB;
+              }
+
+            }
+
+            .link {
+              border-radius: 50%;
+              padding: 9px 12px;
+              background-color: rgb(213, 213, 206);
+              color: rgb(255, 255, 255);
+
+            }
+          }
+
 }

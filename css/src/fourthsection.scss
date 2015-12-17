@@ -5,6 +5,7 @@
 
   .carousel-inner {
     .parag {
+        font-family: 'Kotta One', serif;
       text-align: center;
       color: $primary-font-color;
       font-size: 2em;
@@ -15,19 +16,20 @@
 
     .head {
             font-weight: bold;
-            border-bottom: 2em;
+            border-bottom:1em;
+            font-size: 1.6em;
 
 
     }
   .carousel-indicators {
     // background-color: #3598DB;
     li{
-      border: 1px solid blue;
+      border: 1px solid #3598DB;
     }
 
     .active {
         // background-color: red;
-      background-color: $primary-font-color;
+      background-color: #3598DB;
     }
   }
     // li.active {

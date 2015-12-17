@@ -3,43 +3,48 @@
   background-image: url("../images/raj.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   padding-top: 5em; }
   #firstsection .title {
     font-family: "Pacifico",cursive;
     color: #FFF;
     padding-top: 1em;
-    font-size: 3em;
+    font-size: 5em;
     text-align: center;
-    margin-bottom: -1em;
-    margin-right: 16em; }
+    margin-bottom: -3em;
+    margin-right: 13em;
+    position: relative;
+    top: -1em; }
   #firstsection p.paragraph {
-    font-size: 1.3em;
+    font-size: 1.5em;
+    font-weight: bold;
     color: #FFF;
     padding: 4em;
     margin-bottom: -4em;
-    margin-left: 11em;
-    margin-bottom: -2.9em; }
+    margin-left: -2em;
+    margin-bottom: -2.9em;
+    margin-top: 5em; }
     #firstsection p.paragraph .break {
       margin-right: 20em; }
   #firstsection .icons {
     color: #FFF;
-    font-size: 1em;
+    font-size: 1.6em;
     text-align: center;
     margin-right: 20em; }
     #firstsection .icons .apple {
       border-radius: 50%;
-      padding: 3px 9px;
+      padding: 12px 13px;
       background-color: #1B1B18;
       color: white;
-      margin-left: -27em; }
+      margin-left: -20em; }
     #firstsection .icons .android {
       border-radius: 50%;
-      padding: 3px 9px;
+      padding: 12px 13px;
       background-color: #1B1B18;
       color: white; }
     #firstsection .icons .windows {
       border-radius: 50%;
-      padding: 3px 9px;
+      padding: 12px 13px;
       background-color: #1B1B18;
       color: white; }
 
@@ -58,7 +63,7 @@
   padding: 0.5em; }
 #secondsection p {
   text-align: center;
-  color: #3598DB;
+  color: #777777;
   font-size: 0.3em;
   margin-bottom: 1em; }
 #secondsection .row {
@@ -72,29 +77,46 @@
   font-size: 1em;
   margin-bottom: 2.5em; }
 #secondsection .border {
-  border: 1px solid #F5F5F5; }
+  border-right: 1px solid #D6D6D6;
+  border-bottom: 1px solid #D6D6D6;
+  margin-bottom: 2em; }
 
 #thirdsection {
   background-color: #E7E7E7;
   text-align: center;
   padding: 0.5em; }
+  #thirdsection .head {
+    position: relative;
+    top: -4em;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 4em;
+    font-size: 2em;
+    left: 0em; }
   #thirdsection p {
-    color: #3598DB; }
+    color: #777777;
+    position: relative;
+    top: -7em;
+    margin-right: 7em;
+    text-align: left;
+    margin-bottom: 2em; }
     #thirdsection p .p1 {
       font-weight: bold; }
 
 #fourthsection .div {
   text-align: center; }
 #fourthsection .carousel-inner .parag {
+  font-family: 'Kotta One', serif;
   text-align: center;
-  color: #3598DB;
+  color: #777777;
   font-size: 2em;
   border-bottom: 2em; }
 #fourthsection .head {
   font-weight: bold;
-  border-bottom: 2em; }
+  border-bottom: 1em;
+  font-size: 1.6em; }
 #fourthsection .carousel-indicators li {
-  border: 1px solid blue; }
+  border: 1px solid #3598DB; }
 #fourthsection .carousel-indicators .active {
   background-color: #3598DB; }
 #fourthsection .carousel-indicators {
@@ -104,17 +126,17 @@
   margin-top: 5em; }
 
 #fifthsection {
-  margin-top: 3em;
-  width: 100%; }
-  #fifthsection .bg {
-    background-color: #E7E7E7; }
+  background-color: #D6D6D6; }
   #fifthsection .head {
-    font-weight: bold; }
+    font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 1em; }
   #fifthsection .price-option {
-    border: 1px solid #444;
+    border: 1px solid #7777777;
     background-color: #FFF;
     position: relative;
-    top: 5em; }
+    top: 5em;
+    margin-right: -2em; }
   #fifthsection .test {
     position: relative;
     top: 3.5em;
@@ -145,41 +167,43 @@
     padding: 12px;
     position: relative;
     top: 29px; }
-  #fifthsection h1 {
-    text-align: center;
-    font-weight: bold;
-    margin-top: 4em;
-    font-size: 2em; }
-  #fifthsection p {
-    margin-bottom: 0;
-    text-align: center;
-    color: #3598DB; }
-  #fifthsection .icons {
-    text-align: center; }
-    #fifthsection .icons .twitter {
-      border-radius: 50%;
-      padding: 9px 12px;
-      background-color: #d5d5ce;
-      color: white; }
-    #fifthsection .icons .face {
-      border-radius: 50%;
-      padding: 9px 12px;
-      background-color: #d5d5ce;
-      color: white; }
-    #fifthsection .icons .link {
-      border-radius: 50%;
-      padding: 9px 12px;
-      background-color: #d5d5ce;
-      color: white; }
-  #fifthsection .container {
-    border: 2px solid #fff;
-    bottom: 2em; }
 
-#sixthsection .container {
+#sixthsection h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 4em;
+  font-size: 2em; }
+#sixthsection p {
+  margin-bottom: 2em;
+  text-align: center;
+  color: #777777; }
+#sixthsection .icons {
+  text-align: center; }
+  #sixthsection .icons .twitter {
+    border-radius: 50%;
+    padding: 9px 12px;
+    background-color: #d5d5ce;
+    color: white; }
+  #sixthsection .icons .face {
+    border-radius: 50%;
+    padding: 9px 12px;
+    background-color: #d5d5ce;
+    color: white; }
+    #sixthsection .icons .face:hover {
+      background-color: #3598DB; }
+  #sixthsection .icons .link {
+    border-radius: 50%;
+    padding: 9px 12px;
+    background-color: #d5d5ce;
+    color: white; }
+
+#seventhsection .container {
   background-color: #D6D6D6;
-  padding: 1em 2em;
-  width: 100%; }
-  #sixthsection .container a {
-    margin-right: 3em; }
+  padding: 1em 4em;
+  width: 100%;
+  text-align: center; }
+  #seventhsection .container a {
+    margin-right: 3em;
+    color: #777777; }
 
 /*# sourceMappingURL=app.css.map */
