@@ -69,7 +69,8 @@
   color: #3598DB;
   font-size: 0.8em; }
 #secondsection .para {
-  font-size: 1em; }
+  font-size: 1em;
+  margin-bottom: 2.5em; }
 #secondsection .border {
   border: 1px solid #F5F5F5; }
 
@@ -79,6 +80,8 @@
   padding: 0.5em; }
   #thirdsection p {
     color: #3598DB; }
+    #thirdsection p .p1 {
+      font-weight: bold; }
 
 #fourthsection .div {
   text-align: center; }
